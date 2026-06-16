@@ -183,7 +183,7 @@ function AuthScreen() {
           <div className="w-12 h-12 rounded-xl flex items-center justify-center mx-auto mb-4" style={{ background: `${primary}20` }}>
             <Shield size={22} style={{ color: primary }} />
           </div>
-          <h1 className="text-xl font-semibold" style={{ fontFamily: "Epilogue, sans-serif", color: fg }}>VenueAdmin</h1>
+          <h1 className="text-xl font-semibold" style={{ fontFamily: "Epilogue, sans-serif", color: fg }}>Felizardos</h1>
           <p className="text-sm mt-1" style={{ color: muted }}>
             {tab === "signin" ? "Sign in to your account" : "Create your admin account"}
           </p>
@@ -981,7 +981,7 @@ function Sidebar({ page, setPage, onClose }: { page: Page; setPage: (p: Page) =>
           <span className="text-primary-foreground text-xs font-bold" style={{ fontFamily: "Epilogue, sans-serif" }}>V</span>
         </div>
         <div>
-          <p className="text-sm font-semibold text-foreground leading-tight" style={{ fontFamily: "Epilogue, sans-serif" }}>VenueAdmin</p>
+          <p className="text-sm font-semibold text-foreground leading-tight" style={{ fontFamily: "Epilogue, sans-serif" }}>Felizardos</p>
           <p className="text-[10px] text-muted-foreground">Management Portal</p>
         </div>
       </div>
@@ -1072,7 +1072,7 @@ function DashboardShell() {
               <Menu size={18} />
             </button>
             <div className="flex items-center gap-2 text-xs text-muted-foreground">
-              <span className="hidden sm:inline text-muted-foreground/50">VenueAdmin</span>
+              <span className="hidden sm:inline text-muted-foreground/50">Felizardos</span>
               <span className="hidden sm:inline text-muted-foreground/40">/</span>
               <span className="text-foreground font-medium">{titles[page]}</span>
             </div>
