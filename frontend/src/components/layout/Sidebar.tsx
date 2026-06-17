@@ -50,7 +50,7 @@ export function Sidebar({ page, setPage, onClose }: SidebarProps) {
         </div>
         <div>
           <p className="text-sm font-semibold text-foreground leading-tight" style={{ fontFamily: "Epilogue, sans-serif" }}>
-            VenueAdmin
+            Felizardos
           </p>
           <p className="text-[10px] text-muted-foreground">Management Portal</p>
         </div>

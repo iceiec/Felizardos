@@ -73,7 +73,7 @@ export function AuthScreen() {
           <div className="w-12 h-12 rounded-xl flex items-center justify-center mx-auto mb-4" style={{ background: `${primary}20` }}>
             <Shield size={22} style={{ color: primary }} />
           </div>
-          <h1 className="text-xl font-semibold" style={{ fontFamily: "Epilogue, sans-serif", color: fg }}>VenueAdmin</h1>
+          <h1 className="text-xl font-semibold" style={{ fontFamily: "Epilogue, sans-serif", color: fg }}>Felizardos</h1>
           <p className="text-sm mt-1" style={{ color: muted }}>
             {tab === "signin" ? "Sign in to your account" : "Create your admin account"}
           </p>

@@ -80,7 +80,7 @@ function DashboardShell() {
               <Menu size={18} />
             </button>
             <div className="flex items-center gap-2 text-xs text-muted-foreground">
-              <span className="hidden sm:inline text-muted-foreground/50">VenueAdmin</span>
+              <span className="hidden sm:inline text-muted-foreground/50">Felizardos</span>
               <span className="hidden sm:inline text-muted-foreground/40">/</span>
               <span className="text-foreground font-medium">{titles[page]}</span>
             </div>
